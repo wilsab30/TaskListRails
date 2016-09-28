@@ -13,4 +13,11 @@ class TasksController < ApplicationController
 
   def update
   end
+
+  def created
+
+  end
+
+  def destroy
+  end
 end
