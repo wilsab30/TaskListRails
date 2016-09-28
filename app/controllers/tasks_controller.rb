@@ -1,10 +1,10 @@
 class TasksController < ApplicationController
   def index
-    @tasks = TasksController.all
+    @tasks = Task.all
   end
 
   def show
-    @tasks = TasksController.all
+    @tasks = Task.all
     @mytask = nil
     @tasks.each do |task|
       number = params[:id].to_i
@@ -31,11 +31,7 @@ class TasksController < ApplicationController
   end
 
   def self.all
-    [
-      {id: 1, title: "My Monday Tasks", description: "Go to cleaners", completed_at: "9/17/16 13:45"},
-      {id: 2, title: "My Tuesday Tasks", description: "Go to grocery store", completed_at:"9/18/16 11:00"},
-      {id: 3, title: "My Wednesday Tasks", description: "Walk dog", completed_at:"9/19/16 13:45"}
-    ]
+    Task.all
   end
 
 
