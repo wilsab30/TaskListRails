@@ -1,4 +1,6 @@
 class TasksController < ApplicationController
+  skip_before_filter :verify_authenticity_token
+
   def index
     @tasks = Task.all
   end
@@ -23,9 +25,17 @@ class TasksController < ApplicationController
   def update
   end
 
-  def created
+  def create
+  s1 = Task.new
+    s1.title = params[:title]
+    s1.description = params[:description]
+    s1.completed_at = params[:completed_at]
+    s1.save
+
+    redirect_to action: "index"
 
   end
+
 
   def destroy
   end

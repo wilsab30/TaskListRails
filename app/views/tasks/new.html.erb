@@ -1,8 +1,10 @@
 <h1>Create a new Task</h1>
-<form action="show" method="post" accept-charset="utf-8">
+<form action="create" method="post" accept-charset="utf-8">
   <label for="title">Name of Task</label>
   <input type="text" name="title" id="title">
   <label for="description">Task Description</label>
   <input type="text" name="description" id="description">
+  <label for="completed_at">Task Complete?</label>
+  <input type="text" name="completed_at" id="completed_at">
   <input type="submit" value="Submit">
 </form>

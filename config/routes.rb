@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root to: 'tasks#index'
 
   get 'tasks/index' =>'tasks#index', as: 'index'
+  post 'tasks/show'
 
   get 'tasks/show/:id' =>'tasks#show', as: 'show'
 
@@ -11,7 +12,9 @@ Rails.application.routes.draw do
 
   get 'tasks/update'
 
-  post 'tasks/create'
+  post 'tasks/create' =>'tasks/index'
+
+
 
   get 'tasks/:id/destroy' => 'tasks#destroy', as: 'destroy'
 

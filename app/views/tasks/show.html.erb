@@ -1,9 +1,9 @@
 <h1>My Tasks List</h1>
 
-  <article>
-    <h2> <%= link_to(@mytask[:title]) %></h2>
-      <h3> <%= @mytask[:description] %><h3>
-        <p> <%= @mytask[:completed_at] %></p>
-        <p><%= link_to('Edit', edit_path(@mytask[:id])) %></p>
-        <p><%= link_to('Delete', destroy_path(@mytask[:id])) %></p>
+<article>
+  <h2> <%= link_to(@mytask[:title]) %></h2>
+    <h3> <%= @mytask[:description] %><h3>
+      <p> <%= @mytask[:completed_at] %></p>
+      <p><%= link_to('Edit', edit_path(@mytask[:id])) %></p>
+      <p><%= link_to('Delete', destroy_path(@mytask[:id])) %></p>
 </article>

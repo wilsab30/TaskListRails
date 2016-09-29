@@ -7,8 +7,24 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><%= link_to('Home', index_path) %></li>
+      </ul>
+    </nav>
+  </header>
+
 
 <%= yield %>
+<footer>
+  <nav>
+    <ul>
+      <li><%= link_to('Home', index_path) %></li>
+    </ul>
+  </nav>
+  <p>&copy; 2016 Sabrina Wilbert</p>
+</footer>
 
 </body>
 </html>
