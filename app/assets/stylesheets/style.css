@@ -11,19 +11,20 @@ header {
 footer {
   background-color: #40BCD8;
   clear: both;
+  height: 50px;
 }
 header ul {
   margin-top: 0;
   margin-right: 10px;
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 15px;
   text-align: center;
   margin-bottom: 0;
 }
 
 a {
   text-decoration: none;
-  color: #FFF;
+  color: #000;
 }
 
 li {
@@ -33,18 +34,16 @@ header a {
   font-size: 2.3em;
 }
 
-article h3 {
-
-}
-
-
-
-/*article p {
-
-  padding: 20px;
+/*.link {
+  display: inline;
 }*/
 
-.link {
-  display: inline-table;
-
+article.tile {
+  float:left;
+  border-style: solid;
+  border-color: #000;
+  width: 13%;
+  height: 200px;
+  border-radius: 10%;
+  margin: 10px;
 }

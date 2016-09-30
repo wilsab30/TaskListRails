@@ -1,9 +1,11 @@
 <h1>My Tasks List</h1>
+<p><%= link_to('Add New Task', new_path) %></p>
 <% @tasks.each do |task|%>
-  <article>
+  <article class="tile">
     <h2> <%= link_to(task.title, show_path(task[:id])) %>
       <h3> <%= task.description %><h3>
+
         <p><%= button_to 'Delete', {action: "destroy", id: task.id}, method: :delete, data: {confirm: "Are you sure?"} %></p>
+        <p class="link"><%= link_to('Edit', edit_path(task.id)) %></p>
         </article>
         <%end%>
-        <p class="link"><%= link_to('Add New Task', new_path) %></p>
