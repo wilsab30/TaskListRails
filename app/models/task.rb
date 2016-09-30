@@ -1,2 +1,5 @@
 class Task < ActiveRecord::Base
-end
+
+
+
+end#end of class

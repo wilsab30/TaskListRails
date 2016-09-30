@@ -8145,3 +8145,2219 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-29 20:29:44 -0700
+
+
+Started GET "/" for ::1 at 2016-09-30 10:12:02 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/Users/sabrinawilbert/ada/TaskListRails/app/controllers/tasks_controller.rb:60: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/tasks_controller.rb:60: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (108.5ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 10:12:27 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.5ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 473ms (Views: 470.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/style.self-3b4200cdba509c67c3d37e3531fa5a263150bbc1149bb0d16900500b17f4ff7f.css?body=1" for ::1 at 2016-09-30 10:12:27 -0700
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-30 10:12:27 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-30 10:12:27 -0700
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-30 10:12:27 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-30 10:12:27 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-30 10:12:27 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-30 10:12:27 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-30 10:12:27 -0700
+
+
+Started GET "/tasks/new" for ::1 at 2016-09-30 10:12:34 -0700
+Processing by TasksController#new as HTML
+  Rendered tasks/new.html.erb within layouts/application (35.2ms)
+Completed 200 OK in 59ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks/create" for ::1 at 2016-09-30 10:12:52 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+3Ss5k61gP4so2CNKMsoATwkeQd7rTv/D3KnU9U9dim4amKuueu/N4hQi7YMGRbRJroPjEZo64A864yUVhe54g==", "task"=>{"title"=>"Friday", "description"=>"Take assessment", "finished"=>"0"}, "commit"=>"Create Task"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "tasks" ("title", "description", "finished", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Friday"], ["description", "Take assessment"], ["finished", "f"], ["created_at", "2016-09-30 17:12:52.479111"], ["updated_at", "2016-09-30 17:12:52.479111"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 10:12:52 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/16/edit" for ::1 at 2016-09-30 10:12:55 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 16]]
+  Rendered tasks/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 35ms (Views: 21.7ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/tasks/16/update" for ::1 at 2016-09-30 10:13:00 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"title"=>"Friday", "description"=>"Take assessment", "authenticity_token"=>"XIQnX8GikWLaq4NxxahqatlVPn4ecQFMMpHgzf5ECPIfmukXNvyuq35YaErhelS6w8tI9SO00TMBCMsKfW7HOQ==", "finished"=>"false", "id"=>"16"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 16]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered tasks/update.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 10:13:32 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.5ms)
+  [1m[36mTask Load (1.4ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+
+
+Started GET "/tasks/16/edit" for ::1 at 2016-09-30 10:18:35 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mTask Load (0.2ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 16]]
+  Rendered tasks/edit.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 227ms (Views: 205.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/style.self-3b4200cdba509c67c3d37e3531fa5a263150bbc1149bb0d16900500b17f4ff7f.css?body=1" for ::1 at 2016-09-30 10:18:35 -0700
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-30 10:18:35 -0700
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-30 10:18:35 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-30 10:18:35 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-30 10:18:35 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-30 10:18:35 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-30 10:18:35 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-30 10:18:35 -0700
+
+
+Started GET "/" for ::1 at 2016-09-30 10:18:37 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/7/edit" for ::1 at 2016-09-30 10:18:43 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mTask Load (0.2ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered tasks/edit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/tasks/7/update" for ::1 at 2016-09-30 10:18:48 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"title"=>"Wednesday", "description"=>"Go to Mariners game on Tuesday", "authenticity_token"=>"KANOB/RWMR9N+1fVeyD0f3NVBoQMyW0fxJ1n+WIEMcVrHYBPAwgO1ukIvO5f8sqvactwDzEMvWD3BEw+4S7+Dg==", "finished"=>"", "id"=>"7"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 10:18:48 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 29ms (Views: 28.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/7/edit" for ::1 at 2016-09-30 10:18:55 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered tasks/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 38ms (Views: 35.8ms | ActiveRecord: 0.1ms)
+  [1m[36mTask Load (1.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+
+
+Started GET "/" for ::1 at 2016-09-30 10:21:23 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 210ms (Views: 201.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks/7/edit" for ::1 at 2016-09-30 10:21:27 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered tasks/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 44ms (Views: 30.2ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/tasks/7/update" for ::1 at 2016-09-30 10:21:37 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"title"=>"Wednesday", "description"=>"Go to Mariners game on Saturday", "authenticity_token"=>"MTqzgOM3L7J6E7O85HldlV2wgyxMF6+MfTxqMqcRGAhyJH3IFGkQe97gWIfAq2NFRy71p3HSf/NOpUH1JDvXww==", "id"=>"7"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "tasks" SET "description" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["description", "Go to Mariners game on Saturday"], ["updated_at", "2016-09-30 17:21:37.114955"], ["id", 7]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 10:21:37 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks/7/edit" for ::1 at 2016-09-30 10:21:40 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered tasks/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 10:25:49 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 11:05:48 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/style.self-3b4200cdba509c67c3d37e3531fa5a263150bbc1149bb0d16900500b17f4ff7f.css?body=1" for ::1 at 2016-09-30 11:05:48 -0700
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-30 11:05:48 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-30 11:05:48 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-30 11:05:48 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-30 11:05:48 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-30 11:05:48 -0700
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-30 11:05:48 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-30 11:05:48 -0700
+
+
+Started GET "/tasks/7/edit" for ::1 at 2016-09-30 11:05:50 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered tasks/edit.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/7/edit" for ::1 at 2016-09-30 11:06:03 -0700
+
+ActionController::RoutingError (No route matches [PATCH] "/tasks/7/edit"):
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.1ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (47.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (106.7ms)
+
+
+Started PATCH "/tasks/7/edit" for ::1 at 2016-09-30 11:06:56 -0700
+
+ActionController::RoutingError (No route matches [PATCH] "/tasks/7/edit"):
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (103.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:07:00 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks/7/edit" for ::1 at 2016-09-30 11:07:04 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mTask Load (0.2ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered tasks/edit.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 39ms (Views: 36.5ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/tasks/7/edit" for ::1 at 2016-09-30 11:07:12 -0700
+
+ActionController::RoutingError (No route matches [PATCH] "/tasks/7/edit"):
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (64.9ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (94.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:08:40 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/7/edit" for ::1 at 2016-09-30 11:08:43 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered tasks/edit.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/7/update" for ::1 at 2016-09-30 11:08:49 -0700
+
+ActionController::RoutingError (No route matches [PATCH] "/tasks/7/update"):
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (38.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (92.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:09:35 -0700
+
+SyntaxError (/Users/sabrinawilbert/ada/TaskListRails/config/routes.rb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  patch 'tasks/update' => 'tasks#update' as: 'update'
+                                           ^):
+  config/routes.rb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.9ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (87.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:10:07 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-3b4200cdba509c67c3d37e3531fa5a263150bbc1149bb0d16900500b17f4ff7f.css?body=1" for ::1 at 2016-09-30 11:10:07 -0700
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-30 11:10:07 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-30 11:10:07 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-30 11:10:07 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-30 11:10:07 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-30 11:10:07 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-30 11:10:07 -0700
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-30 11:10:07 -0700
+
+
+Started GET "/tasks/7/edit" for ::1 at 2016-09-30 11:10:10 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered tasks/edit.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 44ms (Views: 41.1ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/tasks/7/update" for ::1 at 2016-09-30 11:10:16 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"stU1hGFefPcEuMWxE4XuwL10FVXOzY8V4lmN577EIojxy/vMlgBDPqBLLoo3V9AQp+pj3vMIX2rRwKYgPe7tQw==", "task"=>{"title"=>"Saturday", "description"=>"Go to Mariners game on Saturday", "finished"=>"0"}, "commit"=>"Update Task", "id"=>"7"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "tasks" SET "title" = ?, "description" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["title", nil], ["description", nil], ["updated_at", "2016-09-30 18:10:16.204950"], ["id", 7]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:10:16 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/tasks/7/destroy" for ::1 at 2016-09-30 11:11:33 -0700
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"XLe+ClDl82Baewwme/bWha4IKVS5ND3/ps8mfK3d1HUfqXBCp7vMqf6I5x1fJOhVtJZf34Tx7YCVVg27Lvcbvg==", "id"=>"7"}
+  [1m[35mTask Load (0.2ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "tasks" WHERE "tasks"."id" = ?  [["id", 7]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:11:33 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/16/edit" for ::1 at 2016-09-30 11:11:36 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 16]]
+  Rendered tasks/edit.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/16/update" for ::1 at 2016-09-30 11:11:44 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aURya45mTOLz6FJjEX7+277tfE7h0rWPoy5whu4W4isqWrwjeThzK1cbuVg1rMALpHMKxdwXZfCQt1tBbTwt4A==", "task"=>{"title"=>"Friday", "description"=>"Take assessment!!!!", "finished"=>"0"}, "commit"=>"Update Task", "id"=>"16"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 16]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "tasks" SET "description" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["description", "Take assessment!!!!"], ["updated_at", "2016-09-30 18:11:44.182978"], ["id", 16]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:11:44 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/16/edit" for ::1 at 2016-09-30 11:11:54 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 16]]
+  Rendered tasks/edit.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/16/update" for ::1 at 2016-09-30 11:11:58 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LlgmQwczJGK56g84Vh4sfV99T2QzaWJrvYZSkOT3UpttRugL8G0bqx0Z5ANyzBKtReM57w6sshSOH3lXZ92dUA==", "task"=>{"title"=>"Friday", "description"=>"Take assessment!!!!", "finished"=>"1"}, "commit"=>"Update Task", "id"=>"16"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 16]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["finished", "t"], ["updated_at", "2016-09-30 18:11:58.693732"], ["id", 16]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "tasks" SET "completed_at" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["completed_at", "2016-09-30 00:00:00.000000"], ["updated_at", "2016-09-30 18:11:58.696366"], ["id", 16]]
+  [1m[35m (0.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:11:58 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/16/edit" for ::1 at 2016-09-30 11:12:02 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 16]]
+  Rendered tasks/edit.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.1ms)
+  [1m[36mTask Load (1.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+
+
+Started GET "/" for ::1 at 2016-09-30 11:18:05 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/sabrinawilbert/ada/TaskListRails/app/models/task.rb:9: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/models/task.rb:9: syntax error, unexpected end-of-input, expecting keyword_end
+  app/controllers/tasks_controller.rb:5:in `index'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.1ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.0ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (99.8ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:18:52 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 238ms (Views: 236.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-3b4200cdba509c67c3d37e3531fa5a263150bbc1149bb0d16900500b17f4ff7f.css?body=1" for ::1 at 2016-09-30 11:18:53 -0700
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-30 11:18:53 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-30 11:18:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-30 11:18:53 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-30 11:18:53 -0700
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-30 11:18:53 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-30 11:18:53 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-30 11:18:53 -0700
+
+
+Started GET "/tasks/new" for ::1 at 2016-09-30 11:18:58 -0700
+Processing by TasksController#new as HTML
+  Rendered tasks/new.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks/create" for ::1 at 2016-09-30 11:19:15 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8TFoqUpJaRrxbt1Hi97BTV0IXnRiv/41hm8ALQt4aPayL6bhvRdW01WdNnyvDP+dR5Yo/196Lkq19ivqiFKnPQ==", "task"=>{"title"=>"Sunday", "description"=>"Watch homework video", "finished"=>"0"}, "commit"=>"Create Task"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("title", "description", "finished", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Sunday"], ["description", "Watch homework video"], ["finished", "f"], ["created_at", "2016-09-30 18:19:15.607610"], ["updated_at", "2016-09-30 18:19:15.607610"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:19:15 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/17/edit" for ::1 at 2016-09-30 11:19:19 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 17]]
+  Rendered tasks/edit.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 33ms (Views: 18.3ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/17/update" for ::1 at 2016-09-30 11:19:26 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZPkDK+zd9XaRU1DAABQzOPZTKeaa58NMpePURzol1bYn581jG4PKvzWgu/skxg3o7M1fbaciEzOWev+AuQ8afQ==", "task"=>{"title"=>"Sunday", "description"=>"Watch homework video", "finished"=>"1"}, "commit"=>"Update Task", "id"=>"17"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 17]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["finished", "t"], ["updated_at", "2016-09-30 18:19:26.269287"], ["id", 17]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 1.1ms)
+
+NoMethodError (undefined method `complete_date' for Task(Table doesn't exist):Class
+Did you mean?  compute_type):
+  app/controllers/tasks_controller.rb:34:in `update'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (87.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:27:55 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks/17/edit" for ::1 at 2016-09-30 11:27:59 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 17]]
+  Rendered tasks/edit.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-09-30 11:28:06 -0700
+Processing by TasksController#new as HTML
+  Rendered tasks/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks/create" for ::1 at 2016-09-30 11:28:20 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xQy79Pyn43cHPeF/AeqYbEDlg2nEqDcSrvktcWrlnKCGEnW8C/ncvqPOCkQlOKa8Wnv14vlt522dYAa26c9Taw==", "task"=>{"title"=>"Monday", "description"=>"go to school", "finished"=>"0"}, "commit"=>"Create Task"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "tasks" ("title", "description", "finished", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Monday"], ["description", "go to school"], ["finished", "f"], ["created_at", "2016-09-30 18:28:20.359779"], ["updated_at", "2016-09-30 18:28:20.359779"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:28:20 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/18/edit" for ::1 at 2016-09-30 11:28:23 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 18]]
+  Rendered tasks/edit.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/18/update" for ::1 at 2016-09-30 11:28:26 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4MrKhkkCY+BFCpysE+GWoj38ESy27hUDdxAlT5bwvSKj1ATOvlxcKeH5d5c3M6hyJ2Jnp4srxXxEiQ6IFdpy6Q==", "task"=>{"title"=>"Monday", "description"=>"go to school", "finished"=>"1"}, "commit"=>"Update Task", "id"=>"18"}
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["finished", "t"], ["updated_at", "2016-09-30 18:28:26.169847"], ["id", 18]]
+  [1m[35m (0.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:28:26 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.1ms)
+  [1m[36mTask Load (1.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+
+
+Started GET "/tasks/17/edit" for ::1 at 2016-09-30 11:30:07 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 17]]
+  Rendered tasks/edit.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 222ms (Views: 202.1ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/tasks/17/update" for ::1 at 2016-09-30 11:30:10 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"um5PNiSRkrNfKAsXzF3EGP/NPLN8w8k6AQ6ptEtYT4j5cIF+08+tevvb4Czoj/rI5VNKOEEGGUUyl4JzyHKAQw==", "task"=>{"title"=>"Sunday", "description"=>"Watch homework video", "finished"=>"0"}, "commit"=>"Update Task", "id"=>"17"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 17]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["finished", "f"], ["updated_at", "2016-09-30 18:30:10.706261"], ["id", 17]]
+  [1m[35m (0.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:30:10 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/18/edit" for ::1 at 2016-09-30 11:30:13 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 18]]
+  Rendered tasks/edit.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/18/update" for ::1 at 2016-09-30 11:30:16 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rwJFfHlp1P8PcWTVT003lf9zoYh2Z2auMvzLoXa/bozsHIs0jjfrNquCj+5rnwlF5e3XA0uittEBZeBm9ZWhRw==", "task"=>{"title"=>"Monday", "description"=>"go to school", "finished"=>"0"}, "commit"=>"Update Task", "id"=>"18"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["finished", "f"], ["updated_at", "2016-09-30 18:30:16.415114"], ["id", 18]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:30:16 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/17/edit" for ::1 at 2016-09-30 11:30:18 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 17]]
+  Rendered tasks/edit.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/tasks/17/update" for ::1 at 2016-09-30 11:30:21 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1Yaln8/suBnJ0ftws3rkZUyFvm9scQCcYAht+Lulw7iWmGvXOLKH0G0iEEuXqNq1VhvI5FG00ONTkUY/OI8Mcw==", "task"=>{"title"=>"Sunday", "description"=>"Watch homework video", "finished"=>"1"}, "commit"=>"Update Task", "id"=>"17"}
+  [1m[36mTask Load (0.5ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 17]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["finished", "t"], ["updated_at", "2016-09-30 18:30:21.764899"], ["id", 17]]
+  [1m[35m (0.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:30:21 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/18/edit" for ::1 at 2016-09-30 11:30:23 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 18]]
+  Rendered tasks/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/18/update" for ::1 at 2016-09-30 11:30:25 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cXUKQjVwqjmlY73bBuk/XKJiM3O9Ne4B+hn1r7JdZP0ya8QKwi6V8AGQVuAiOwGMuPxF+IDwPn7JgN5oMXerNg==", "task"=>{"title"=>"Monday", "description"=>"go to school", "finished"=>"1"}, "commit"=>"Update Task", "id"=>"18"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["finished", "t"], ["updated_at", "2016-09-30 18:30:25.875428"], ["id", 18]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 11:30:25 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.1ms)
+  [1m[36mTask Load (5.6ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to RemoveColumn (20160930192918)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mTask Load (2.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+
+
+Started DELETE "/tasks/16/destroy" for ::1 at 2016-09-30 13:41:11 -0700
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.7) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.7) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (103.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to RemoveColumn (20160930192918)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to RemoveColumn (20160930192918)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to RemoveColumn (20160930192918)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TEMPORARY TABLE "atasks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text, "completed_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "Completed" boolean, "finished" boolean) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "tasks"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "atasks" ("id","title","description","completed_at","created_at","updated_at","Completed","finished") VALUES (16, 'Friday', 'Take assessment!!!!', '2016-09-30 00:00:00.000000', '2016-09-30 17:12:52.479111', '2016-09-30 18:11:58.696366', NULL, 't')[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "atasks" ("id","title","description","completed_at","created_at","updated_at","Completed","finished") VALUES (17, 'Sunday', 'Watch homework video', NULL, '2016-09-30 18:19:15.607610', '2016-09-30 18:30:21.764899', NULL, 't')
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "atasks" ("id","title","description","completed_at","created_at","updated_at","Completed","finished") VALUES (18, 'Monday', 'go to school', NULL, '2016-09-30 18:28:20.359779', '2016-09-30 18:30:25.875428', NULL, 't')[0m
+  [1m[35m (0.4ms)[0m  DROP TABLE "tasks"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "tasks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text, "completed_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "finished" boolean) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "atasks"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "tasks" ("id","title","description","completed_at","created_at","updated_at","finished") VALUES (16, 'Friday', 'Take assessment!!!!', '2016-09-30 00:00:00.000000', '2016-09-30 17:12:52.479111', '2016-09-30 18:11:58.696366', 't')[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "tasks" ("id","title","description","completed_at","created_at","updated_at","finished") VALUES (17, 'Sunday', 'Watch homework video', NULL, '2016-09-30 18:19:15.607610', '2016-09-30 18:30:21.764899', 't')
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "tasks" ("id","title","description","completed_at","created_at","updated_at","finished") VALUES (18, 'Monday', 'go to school', NULL, '2016-09-30 18:28:20.359779', '2016-09-30 18:30:25.875428', 't')[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "atasks"
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160930192918"]]
+  [1m[35m (1.7ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2016-09-30 13:44:52 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 31ms (Views: 28.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-3b4200cdba509c67c3d37e3531fa5a263150bbc1149bb0d16900500b17f4ff7f.css?body=1" for ::1 at 2016-09-30 13:44:52 -0700
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-30 13:44:52 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-30 13:44:52 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-30 13:44:52 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-30 13:44:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-30 13:44:52 -0700
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-30 13:44:52 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-30 13:44:52 -0700
+  [1m[36mTask Load (1.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+
+
+Started GET "/tasks/18/edit" for ::1 at 2016-09-30 13:47:05 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 18]]
+  Rendered tasks/edit.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 13:47:18 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/16/edit" for ::1 at 2016-09-30 13:47:20 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 16]]
+  Rendered tasks/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 13:47:24 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks/17/edit" for ::1 at 2016-09-30 13:47:26 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 17]]
+  Rendered tasks/edit.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 13:47:32 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/16/edit" for ::1 at 2016-09-30 13:47:33 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 16]]
+  Rendered tasks/edit.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 49ms (Views: 47.6ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/16/update" for ::1 at 2016-09-30 13:47:39 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oCF4uLVUVlYQZMhxjFoU9ETTjk/eDi59j2TBuLSpglnjP7bwQgppn7SXI0qoiCokXk34xOPL/gK8/ep/N4NNkg==", "task"=>{"title"=>"Friday", "description"=>"Take assessment!!!!", "finished"=>"0"}, "commit"=>"Update Task", "id"=>"16"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 16]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["finished", "f"], ["updated_at", "2016-09-30 20:47:39.605002"], ["id", 16]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 13:47:39 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/17/edit" for ::1 at 2016-09-30 13:47:42 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 17]]
+  Rendered tasks/edit.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/17/update" for ::1 at 2016-09-30 13:47:44 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wRhKj+jpqkYcopsjgYpxTSnij/LuBVU5MgyWtSkqWA6CBoTHH7eVj7hRcBilWE+dM3z5edPAhUYBlb1yqgCXxQ==", "task"=>{"title"=>"Sunday", "description"=>"Watch homework video", "finished"=>"0"}, "commit"=>"Update Task", "id"=>"17"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 17]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["finished", "f"], ["updated_at", "2016-09-30 20:47:44.668773"], ["id", 17]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 13:47:44 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/18/edit" for ::1 at 2016-09-30 13:47:47 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 18]]
+  Rendered tasks/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/18/update" for ::1 at 2016-09-30 13:47:48 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CDEoeQAaPmTuIG9htInjb+kKRJrH5UEVAU64dQQ6nh1LL+Yx90QBrUrThFqQW92/85QyEfogkWoy15OyhxBR1g==", "task"=>{"title"=>"Monday", "description"=>"go to school", "finished"=>"1"}, "commit"=>"Update Task", "id"=>"18"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 13:47:48 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 13:47:50 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks/18/edit" for ::1 at 2016-09-30 13:47:52 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 18]]
+  Rendered tasks/edit.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/18/update" for ::1 at 2016-09-30 13:47:55 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7yn92TbK2z0f3XpCTfsYUm9kz8lfulTUNkb4O1jAiOmsNzORwZTk9LsukXlpKSaCdfq5QmJ/hKsF39P82+pHIg==", "task"=>{"title"=>"Monday", "description"=>"go to school", "finished"=>"0"}, "commit"=>"Update Task", "id"=>"18"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 18]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["finished", "f"], ["updated_at", "2016-09-30 20:47:55.775162"], ["id", 18]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 13:47:55 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/18/edit" for ::1 at 2016-09-30 13:47:57 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 18]]
+  Rendered tasks/edit.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.1ms)
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 13:48:31 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 36ms (Views: 32.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks/16/edit" for ::1 at 2016-09-30 13:48:33 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 16]]
+  Rendered tasks/edit.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/16/update" for ::1 at 2016-09-30 13:48:37 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qIU8ybpfUjAdrZilrDOJlNAyzDd8nTq/JVrTjYK0wN7rm/KBTQFt+blec56I4bdEyqy6vEFY6sAWw/hKAZ4PFQ==", "task"=>{"title"=>"Friday", "description"=>"Take assessment!!!!", "finished"=>"1"}, "commit"=>"Update Task", "id"=>"16"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 16]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["finished", "t"], ["updated_at", "2016-09-30 20:48:37.024108"], ["id", 16]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 13:48:37 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.2ms)
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+
+
+Started GET "/tasks/17/edit" for ::1 at 2016-09-30 13:49:04 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 17]]
+  Rendered tasks/edit.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/17/update" for ::1 at 2016-09-30 13:49:08 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZlaVdzbK9XSW5C3v/CkvOmnk7L2r4Zm2d590d+7rdEwlSFs/wZTKvTIXxtTY+xHqc3qaNpYkSclEBl+wbcG7hw==", "task"=>{"title"=>"Sunday", "description"=>"Watch homework video", "finished"=>"1"}, "commit"=>"Update Task", "id"=>"17"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 17]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["finished", "t"], ["updated_at", "2016-09-30 20:49:08.610909"], ["id", 17]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 13:49:08 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.1ms)
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks"
+
+
+Started GET "/tasks/17/edit" for ::1 at 2016-09-30 13:52:28 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 17]]
+  Rendered tasks/edit.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 34ms (Views: 28.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 13:52:32 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-09-30 13:52:35 -0700
+Processing by TasksController#new as HTML
+  Rendered tasks/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 25ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks/create" for ::1 at 2016-09-30 13:52:58 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V6BKgvRjQN9I1UVZR2QdsJfQvS4pUk6IS96tBRG1QRwUvoTKAz1/FuwmrmJjtiNgjU7LpRSXnvd4R4bCkp+O1w==", "task"=>{"title"=>"Tuesday", "description"=>"All  done!!", "finished"=>"0"}, "commit"=>"Create Task"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "tasks" ("title", "description", "finished", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Tuesday"], ["description", "All  done!!"], ["finished", "f"], ["created_at", "2016-09-30 20:52:58.610200"], ["updated_at", "2016-09-30 20:52:58.610200"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 13:52:58 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/19/edit" for ::1 at 2016-09-30 13:53:01 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered tasks/edit.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/19/update" for ::1 at 2016-09-30 13:53:05 -0700
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H/Q1p5l3STqCH1tPO/5y2Sf2nL4m+h0h3RoVfU+4txNc6vvvbil28ybssHQfLEwJPWjqNRs/zV7ugz66zJJ42A==", "task"=>{"title"=>"Tuesday", "description"=>"All  done!!", "finished"=>"1"}, "commit"=>"Update Task", "id"=>"19"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 19]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["finished", "t"], ["updated_at", "2016-09-30 20:53:05.087290"], ["id", 19]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "tasks" SET "completed_at" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["completed_at", "2016-09-30 20:53:05.089197"], ["updated_at", "2016-09-30 20:53:05.089691"], ["id", 19]]
+  [1m[35m (0.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 13:53:05 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/19/edit" for ::1 at 2016-09-30 13:53:06 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered tasks/edit.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 13:53:09 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.2ms)
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 14:26:32 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (27.4ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined local variable or method `finished' for #<#<Class:0x007f84b67567b8>:0x007f84b90c1558>):
+     7: 
+     8:         <p><%= button_to 'Delete', {action: "destroy", id: task.id}, method: :delete, data: {confirm: "Are you sure?"} %></p>
+     9:         <p class="link"><%= link_to('Edit', edit_path(task.id)) %></p>
+    10:         <p><%finished%></p>
+    11: 
+    12:         </article>
+    13:         <%end%>
+  app/views/tasks/index.html.erb:10:in `block in _app_views_tasks_index_html_erb___3923968748051282854_70104008491220'
+  app/views/tasks/index.html.erb:3:in `_app_views_tasks_index_html_erb___3923968748051282854_70104008491220'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.7ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (37.9ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (83.7ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 14:27:05 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `finished' for nil:NilClass):
+     7: 
+     8:         <p><%= button_to 'Delete', {action: "destroy", id: task.id}, method: :delete, data: {confirm: "Are you sure?"} %></p>
+     9:         <p class="link"><%= link_to('Edit', edit_path(task.id)) %></p>
+    10:         <p><% @mytask.finished %></p>
+    11: 
+    12:         </article>
+    13:         <%end%>
+  app/views/tasks/index.html.erb:10:in `block in _app_views_tasks_index_html_erb___3923968748051282854_70103983670740'
+  app/views/tasks/index.html.erb:3:in `_app_views_tasks_index_html_erb___3923968748051282854_70103983670740'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (43.0ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (91.6ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 14:28:59 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `finished' for nil:NilClass):
+     7: 
+     8:         <p><%= button_to 'Delete', {action: "destroy", id: task.id}, method: :delete, data: {confirm: "Are you sure?"} %></p>
+     9:         <p class="link"><%= link_to('Edit', edit_path(task.id)) %></p>
+    10:         <p><% @mytask.finished %></p>
+    11:         <p><%= button_to 'Task Complete', {action: "edit", id: task.finished}, method: :edit %></p>
+    12: 
+    13:         </article>
+  app/views/tasks/index.html.erb:10:in `block in _app_views_tasks_index_html_erb___3923968748051282854_70103958599460'
+  app/views/tasks/index.html.erb:3:in `_app_views_tasks_index_html_erb___3923968748051282854_70103958599460'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.7ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (84.9ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 14:29:11 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"tasks", :id=>false}):
+     8:         <p><%= button_to 'Delete', {action: "destroy", id: task.id}, method: :delete, data: {confirm: "Are you sure?"} %></p>
+     9:         <p class="link"><%= link_to('Edit', edit_path(task.id)) %></p>
+    10:         
+    11:         <p><%= button_to 'Task Complete', {action: "edit", id: task.finished}, method: :edit %></p>
+    12: 
+    13:         </article>
+    14:         <%end%>
+  app/views/tasks/index.html.erb:11:in `block in _app_views_tasks_index_html_erb___3923968748051282854_70103959201680'
+  app/views/tasks/index.html.erb:3:in `_app_views_tasks_index_html_erb___3923968748051282854_70103959201680'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.7ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (92.0ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 14:30:19 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"tasks", :finished=>true}):
+     8:         <p><%= button_to 'Delete', {action: "destroy", id: task.id}, method: :delete, data: {confirm: "Are you sure?"} %></p>
+     9:         <p class="link"><%= link_to('Edit', edit_path(task.id)) %></p>
+    10: 
+    11:         <p><%= button_to 'Task Complete', {action: "edit", finished: task.finished}, method: :edit %></p>
+    12: 
+    13:         </article>
+    14:         <%end%>
+  app/views/tasks/index.html.erb:11:in `block in _app_views_tasks_index_html_erb___3923968748051282854_70103980433280'
+  app/views/tasks/index.html.erb:3:in `_app_views_tasks_index_html_erb___3923968748051282854_70103980433280'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (93.3ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 14:33:38 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (22.2ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f84b67567b8>:0x007f84b5f78640>):
+    4:   <article class="tile">
+    5:     <h2> <%= link_to(task.title, show_path(task[:id])) %>
+    6:       <h3> <%= task.description %><h3>
+    7:         <%= f.check_box :finished %>
+    8:         <p><%= button_to 'Delete', {action: "destroy", id: task.id}, method: :delete, data: {confirm: "Are you sure?"} %></p>
+    9:         <p class="link"><%= link_to('Edit', edit_path(task.id)) %></p>
+   10: </article>
+  app/views/tasks/index.html.erb:7:in `block in _app_views_tasks_index_html_erb___3923968748051282854_70103997188840'
+  app/views/tasks/index.html.erb:3:in `_app_views_tasks_index_html_erb___3923968748051282854_70103997188840'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.9ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (37.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (82.3ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 14:34:12 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..5)):
+    4:   <article class="tile">
+    5:     <h2> <%= link_to(task.title, show_path(task[:id])) %>
+    6:       <h3> <%= task.description %><h3>
+    7:         <%= check_box :finished %>
+    8:         <p><%= button_to 'Delete', {action: "destroy", id: task.id}, method: :delete, data: {confirm: "Are you sure?"} %></p>
+    9:         <p class="link"><%= link_to('Edit', edit_path(task.id)) %></p>
+   10: </article>
+  app/views/tasks/index.html.erb:7:in `block in _app_views_tasks_index_html_erb___3923968748051282854_70104008822560'
+  app/views/tasks/index.html.erb:3:in `_app_views_tasks_index_html_erb___3923968748051282854_70104008822560'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (43.7ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (94.0ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 14:35:02 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/style.self-3b4200cdba509c67c3d37e3531fa5a263150bbc1149bb0d16900500b17f4ff7f.css?body=1" for ::1 at 2016-09-30 14:35:02 -0700
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-30 14:35:02 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-30 14:35:02 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-30 14:35:02 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-30 14:35:02 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-30 14:35:02 -0700
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-30 14:35:02 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-30 14:35:02 -0700
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 14:37:31 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     6:       <h3> <%= task.description %><h3>
+     7:       <p><%= button_to 'Delete', {action: "destroy", id: task.id}, method: :delete, data: {confirm: "Are you sure?"} %></p>
+     8:         <p class="link"><%= link_to('Edit', edit_path(task.id)) %></p>
+     9:         <%= form_for @task do |f| %>
+    10:         <%= f.button %>
+    11:         <% end %>
+    12: </article>
+  app/views/tasks/index.html.erb:9:in `block in _app_views_tasks_index_html_erb___3923968748051282854_70103963302640'
+  app/views/tasks/index.html.erb:3:in `_app_views_tasks_index_html_erb___3923968748051282854_70103963302640'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.0ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (43.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (91.3ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 14:38:55 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+     9:     </article>
+    10:         <%end%>
+    11:     <article>
+    12:         <%= form_for @task do |f| %>
+    13:         <%= f.button %>
+    14:     </article>  
+    15:         <% end %>
+  app/views/tasks/index.html.erb:12:in `_app_views_tasks_index_html_erb___3923968748051282854_70103979887260'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (90.6ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 14:39:22 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/style.self-3b4200cdba509c67c3d37e3531fa5a263150bbc1149bb0d16900500b17f4ff7f.css?body=1" for ::1 at 2016-09-30 14:39:22 -0700
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-30 14:39:22 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-30 14:39:22 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-30 14:39:22 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-30 14:39:22 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-30 14:39:22 -0700
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-30 14:39:22 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-30 14:39:22 -0700
+
+
+Started GET "/tasks/16/edit" for ::1 at 2016-09-30 14:43:44 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 16]]
+  Rendered tasks/edit.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 14:43:49 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 15:01:19 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/style.self-3b4200cdba509c67c3d37e3531fa5a263150bbc1149bb0d16900500b17f4ff7f.css?body=1" for ::1 at 2016-09-30 15:01:19 -0700
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-30 15:01:19 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-30 15:01:19 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-30 15:01:19 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-30 15:01:19 -0700
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-30 15:01:19 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-30 15:01:19 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-30 15:01:19 -0700
+
+
+Started PATCH "/tasks/16/toggle_completed" for ::1 at 2016-09-30 15:01:26 -0700
+Processing by TasksController#toggle_completed as HTML
+  Parameters: {"authenticity_token"=>"y5YxRcwJKVvBQRGXO+OlPRsDAdgI1Xtleoehxx1tMs6IiP8NO1cWkmWy+qwfMZvtAZ13UzUQqxpJHooAnkf9BQ==", "id"=>"16"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 16]]
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms)
+
+NoMethodError (undefined method `toggle' for true:TrueClass):
+  app/controllers/tasks_controller.rb:43:in `toggle_completed'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (38.5ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (86.9ms)
+
+
+Started PATCH "/tasks/16/toggle_completed" for ::1 at 2016-09-30 15:04:37 -0700
+Processing by TasksController#toggle_completed as HTML
+  Parameters: {"authenticity_token"=>"y5YxRcwJKVvBQRGXO+OlPRsDAdgI1Xtleoehxx1tMs6IiP8NO1cWkmWy+qwfMZvtAZ13UzUQqxpJHooAnkf9BQ==", "id"=>"16"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 16]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["finished", "f"], ["updated_at", "2016-09-30 22:04:37.361065"], ["id", 16]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 2.0ms)
+
+ActionView::MissingTemplate (Missing template tasks/toggle_completed, application/toggle_completed with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/sabrinawilbert/ada/TaskListRails/app/views"
+):
+  actionview (4.2.7) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.7) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.7) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.7) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.7) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.7) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.7) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.7) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.7) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.7) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.7) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.7) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.7) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.7) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.7) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.7) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.7) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.7) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.7) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.7) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.7) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.7) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.7) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.7) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.7) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.7) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.7) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.7) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.7) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.7) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.7) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.7) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.7) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.7) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.7) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.7) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.7) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.7) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/sabrinawilbert/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (45.9ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (37.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (85.1ms)
+
+
+Started PATCH "/tasks/16/toggle_completed" for ::1 at 2016-09-30 15:06:07 -0700
+Processing by TasksController#toggle_completed as HTML
+  Parameters: {"authenticity_token"=>"y5YxRcwJKVvBQRGXO+OlPRsDAdgI1Xtleoehxx1tMs6IiP8NO1cWkmWy+qwfMZvtAZ13UzUQqxpJHooAnkf9BQ==", "id"=>"16"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 16]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["finished", "t"], ["updated_at", "2016-09-30 22:06:07.893073"], ["id", 16]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 15:06:07 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/style.self-3b4200cdba509c67c3d37e3531fa5a263150bbc1149bb0d16900500b17f4ff7f.css?body=1" for ::1 at 2016-09-30 15:06:07 -0700
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-30 15:06:07 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-30 15:06:07 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-30 15:06:07 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-30 15:06:07 -0700
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-30 15:06:08 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-30 15:06:08 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-30 15:06:08 -0700
+
+
+Started PATCH "/tasks/17/toggle_completed" for ::1 at 2016-09-30 15:06:11 -0700
+Processing by TasksController#toggle_completed as HTML
+  Parameters: {"authenticity_token"=>"V4Ta+41OnlOUkFU1bIXv2X9EbC8IQI1GmNWG0bAqjI0UmhSzehChmjBjvg5IV9EJZdoapDWFXTmrTK0WMwBDRg==", "id"=>"17"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 17]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["finished", "f"], ["updated_at", "2016-09-30 22:06:11.762642"], ["id", 17]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 15:06:11 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-09-30 15:06:22 -0700
+Processing by TasksController#new as HTML
+  Rendered tasks/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks/create" for ::1 at 2016-09-30 15:06:30 -0700
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qyQSWrhXBuXPamtyg7cVFynmOTGQtjnBEB5ScAUCC4LoOtwSTwk5LGuZgEmnZSvHM3hPuq1z6b4jh3m3hijESQ==", "task"=>{"title"=>"My", "description"=>"Test", "finished"=>"0"}, "commit"=>"Create Task"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tasks" ("title", "description", "finished", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "My"], ["description", "Test"], ["finished", "f"], ["created_at", "2016-09-30 22:06:30.162418"], ["updated_at", "2016-09-30 22:06:30.162418"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 15:06:30 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/20/toggle_completed" for ::1 at 2016-09-30 15:06:35 -0700
+Processing by TasksController#toggle_completed as HTML
+  Parameters: {"authenticity_token"=>"E2KyOVqBly1nyv0UWaHWTGYTly1o3FQc3ot/xq2rtR1QfHxxrd+o5MM5Fi99c+icfI3hplUZhGPtElQBLoF61g==", "id"=>"20"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 20]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["finished", "t"], ["updated_at", "2016-09-30 22:06:35.859206"], ["id", 20]]
+  [1m[35m (1.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 15:06:35 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/20/edit" for ::1 at 2016-09-30 15:06:43 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"20"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 20]]
+  Rendered tasks/edit.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 15:06:56 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 43ms (Views: 42.7ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/tasks/20/toggle_completed" for ::1 at 2016-09-30 15:07:01 -0700
+Processing by TasksController#toggle_completed as HTML
+  Parameters: {"authenticity_token"=>"cUfe3P/lmfI+yVGUgA/utH48cfj33viJpDp4Xjoe+owyWRCUCLumO5o6uq+k3dBkZKIHc8obKPaXo1OZuTQ1Rw==", "id"=>"20"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 20]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["finished", "f"], ["updated_at", "2016-09-30 22:07:01.329029"], ["id", 20]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 15:07:01 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/20/edit" for ::1 at 2016-09-30 15:07:03 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 20]]
+  Rendered tasks/edit.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 15:17:34 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `finished' for nil:NilClass):
+     7:       <p><%= button_to 'Delete', {action: "destroy", id: task.id}, method: :delete, data: {confirm: "Are you sure?"} %></p>
+     8:         <p class="link"><%= link_to('Edit', edit_path(task.id)) %></p>
+     9: 
+    10:       <% if @mytask.finished
+    11:         button_label = "Not complete"
+    12:       else
+    13:         button_label = "Task complete"
+  app/views/tasks/index.html.erb:10:in `block in _app_views_tasks_index_html_erb___3923968748051282854_70103997272800'
+  app/views/tasks/index.html.erb:3:in `_app_views_tasks_index_html_erb___3923968748051282854_70103997272800'
+
+
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (38.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/sabrinawilbert/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (83.4ms)
+
+
+Started GET "/tasks/index" for ::1 at 2016-09-30 15:18:07 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/style.self-3b4200cdba509c67c3d37e3531fa5a263150bbc1149bb0d16900500b17f4ff7f.css?body=1" for ::1 at 2016-09-30 15:18:07 -0700
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-30 15:18:08 -0700
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-30 15:18:08 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-30 15:18:08 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-30 15:18:08 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-30 15:18:08 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-30 15:18:08 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-30 15:18:08 -0700
+
+
+Started PATCH "/tasks/19/toggle_completed" for ::1 at 2016-09-30 15:18:17 -0700
+Processing by TasksController#toggle_completed as HTML
+  Parameters: {"authenticity_token"=>"TIPMyH40XTmYAxVp/CG13j6HpyYbBdWJLhWRrgV902QPnQKAiWpi8Dzw/lLY84sOJBnRrSbABfYdjLpphlccrw==", "id"=>"19"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 19]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["finished", "f"], ["updated_at", "2016-09-30 22:18:17.040891"], ["id", 19]]
+  [1m[36m (3.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 15:18:17 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/19/edit" for ::1 at 2016-09-30 15:18:20 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered tasks/edit.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 15:19:32 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/style.self-3b4200cdba509c67c3d37e3531fa5a263150bbc1149bb0d16900500b17f4ff7f.css?body=1" for ::1 at 2016-09-30 15:19:32 -0700
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-30 15:19:32 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-09-30 15:19:32 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-30 15:19:32 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-09-30 15:19:32 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-09-30 15:19:32 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-30 15:19:32 -0700
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-09-30 15:19:32 -0700
+
+
+Started PATCH "/tasks/16/toggle_completed" for ::1 at 2016-09-30 15:19:37 -0700
+Processing by TasksController#toggle_completed as HTML
+  Parameters: {"authenticity_token"=>"hvUlIJ8au/DUlrv52QXTrPAQ0HOyrAimbLyviAzLguvF6+toaESEOXBlUML91+186o6m+I9p2NlfJYRPj+FNIA==", "id"=>"16"}
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 16]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["finished", "f"], ["updated_at", "2016-09-30 22:19:37.374485"], ["id", 16]]
+  [1m[35m (0.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 15:19:37 -0700
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tasks/17/toggle_completed" for ::1 at 2016-09-30 15:19:40 -0700
+Processing by TasksController#toggle_completed as HTML
+  Parameters: {"authenticity_token"=>"Ka5bde0CYDXH0m6xn+T39yNSmyMsWXzfA6YYkxdLSDZqsJU9Glxf/GMhhYq7NsknOcztqBGcrKAwPzNUlGGH/Q==", "id"=>"17"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 17]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "tasks" SET "finished" = ?, "updated_at" = ? WHERE "tasks"."id" = ?  [["finished", "t"], ["updated_at", "2016-09-30 22:19:40.228081"], ["id", 17]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2016-09-30 15:19:40 -0700
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks/17/edit" for ::1 at 2016-09-30 15:19:41 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 17]]
+  Rendered tasks/edit.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 34ms (Views: 31.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/16/edit" for ::1 at 2016-09-30 15:19:45 -0700
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 16]]
+  Rendered tasks/edit.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.1ms)

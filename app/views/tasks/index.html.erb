@@ -4,8 +4,14 @@
   <article class="tile">
     <h2> <%= link_to(task.title, show_path(task[:id])) %>
       <h3> <%= task.description %><h3>
-
-        <p><%= button_to 'Delete', {action: "destroy", id: task.id}, method: :delete, data: {confirm: "Are you sure?"} %></p>
+      <p><%= button_to 'Delete', {action: "destroy", id: task.id}, method: :delete, data: {confirm: "Are you sure?"} %></p>
         <p class="link"><%= link_to('Edit', edit_path(task.id)) %></p>
-        </article>
+
+      <% if task.finished
+        button_label = "Mark Not complete"
+      else
+        button_label = "Mark complete"
+      end %>
+        <p><%= button_to button_label, toggle_path(task.id), method: :patch %></p>
+    </article>
         <%end%>

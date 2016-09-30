@@ -27,10 +27,21 @@ class TasksController < ApplicationController
 
   def update
     @mytask = Task.find(params[:id].to_i)
-    @mytask[:title] = params["title"]
-    @mytask[:description] = params["description"]
-    @mytask[:finished] = params["finished"]
+    @mytask[:title] = params[:task]["title"]
+    @mytask[:description] = params[:task]["description"]
+    @mytask[:finished] = params[:task]["finished"]
     @mytask.save
+    if @mytask.finished == true
+      @mytask.completed_at = DateTime.now
+      @mytask.save
+    end
+    redirect_to action: "index"
+  end
+
+  def toggle_completed
+    @mytask = Task.find(params[:id].to_i)
+    @mytask.update(finished: !@mytask.finished)
+    redirect_to action: "index"
   end
 
   def create
