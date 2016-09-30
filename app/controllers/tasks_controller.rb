@@ -26,17 +26,11 @@ class TasksController < ApplicationController
   end
 
   def update
-    @tasks = Task.all
-    @mytask = nil
-    @tasks.each do |task|
-      number = params[:id].to_i
-      if task[:id] == number
-        @mytask = task
-      end
-    end
+    @mytask = Task.find(params[:id].to_i)
     @mytask[:title] = params["title"]
     @mytask[:description] = params["description"]
     @mytask[:finished] = params["finished"]
+    @mytask.save
   end
 
   def create
@@ -53,6 +47,7 @@ class TasksController < ApplicationController
 
   def destroy
     @mytask = Task.destroy(params[:id].to_i)
+    redirect_to action: "index"
   end
 
   def self.all
