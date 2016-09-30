@@ -1,5 +1,18 @@
 <h1>Create a new Task</h1>
-<form action="create" method="post" accept-charset="utf-8">
+<section>
+<%= form_for @mytask, url: create_path do |f| %>
+<%= f.label :title %>
+<%= f.text_field :title %>
+<%= f.label :description %>
+<%= f.text_area :description %>
+<%= f.label :finished %>
+<%= f.check_box :finished %>
+<%= f.submit %>
+<%end%>
+</section>
+
+
+<!-- <form action="create" method="post" accept-charset="utf-8">
   <label for="title">Name of Task</label>
   <input type="text" name="title" id="title">
   <label for="description">Task Description</label>
@@ -7,4 +20,4 @@
   <label for="completed_at">Task Complete?</label>
   <input type="text" name="completed_at" id="completed_at">
   <input type="submit" value="Submit">
-</form>
+</form> -->

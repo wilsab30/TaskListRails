@@ -12,11 +12,9 @@ Rails.application.routes.draw do
 
   get 'tasks/update'
 
-  post 'tasks/create' =>'tasks/index'
+  post 'tasks/create' =>'tasks#create', as: 'create'
 
-
-
-  get 'tasks/:id/destroy' => 'tasks#destroy', as: 'destroy'
+  delete 'tasks/:id/destroy' => 'tasks#destroy', as: 'delete'
 
   put 'tasks/:id/update' => 'tasks#update', as: 'update'
 

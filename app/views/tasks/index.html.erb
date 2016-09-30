@@ -1,9 +1,9 @@
 <h1>My Tasks List</h1>
 <% @tasks.each do |task|%>
   <article>
-    <h2> <%= link_to(task[:title], show_path(task[:id])) %>
-      <h3> <%= task[:description] %><h3>
-        <p> <%= task[:completed_at] %></p>
+    <h2> <%= link_to(task.title, show_path(task[:id])) %>
+      <h3> <%= task.description %><h3>
+        <p> <%= task.finished %></p>
         </article>
         <%end%>
         <p><%= link_to('Add New Task', new_path) %></p>
