@@ -1,3 +1,10 @@
+### Reflection on TaskList
+This assignment felt easier to do because of the smaller waves. Although the baseline vs wave was a little confusing. Why wouldn't the baseline of wave 1 go in wave 1?
+I struggled with understanding what should go in the model. I have a situation where a method in my controller is updating the database based on the status of another column. I would think that would go in the model, but told it should be in the controller. I'd like to know what if anything I have in my controller that should have gone in the model. 
+
+
+
+
 # Task List Rails ✅
 We are going to build a Task List in Rails. This web application will enable us to keep track of list of tasks with the functionality to add, edit and remove tasks from a list.
 
